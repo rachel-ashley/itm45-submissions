@@ -1,0 +1,167 @@
+body {
+  width: 80%;
+  margin: 0;
+  background: #a13d2d;
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #a13d2d;
+}
+
+header::after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 60px;
+  padding-top: 15px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.productlistheader {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.productlist {
+  margin-left: 100px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+table a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+table {
+  color: #ffffff;
+}
+
+th {
+  text-align: left;
+}
+
+.specificproduct {
+  width: 150px;
+  text-align: left;
+  padding: 20px;
+  margin: 0px;
+}
+
+h1 {
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.backtoproduct {
+  color: #ffffff;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.welcomeline {
+  margin-top: 80px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  color: #ffffff;
+}
+
+.brancheslist {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.branchestable {
+  margin-left: 100px;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 30px 30px;
+}
+
+.productdescription {
+  margin-left: 50px;
+  color: #ffffff;
+  text-align: left;
+  border-collapse: separate;
+  border-spacing: 30px 10px;
+}
+
+.aboutus {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.aboutustext {
+  margin-left: 100px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.footer {
+  color: #ffffff;
+  margin-top: 200px;
+  text-align: left;
+  border-spacing: 100px 1px;
+  border-collapse: separate;
+  margin-bottom: 30px;
+}
